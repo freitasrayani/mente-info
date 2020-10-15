@@ -16,6 +16,8 @@
   }
   .header-content .logo{
     width: 35%;  
+    text-decoration: none;
+    color: #000;
   }
   .header-content .menu-mobile {
     display: flex;
