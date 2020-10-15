@@ -20,7 +20,7 @@ const LandingPage = () => (
                 </div>
              </div>
              <div className="img-div">
-                 <img className="img-landingpage" src={foto3} alt="pessoas fingindo felicidade"></img> 
+                 <img className="img-landingpage" src={foto3} alt="pessoas fingindo felicidade" /> 
              </div>
         </section>
        <section className="lading-section2">

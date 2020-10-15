@@ -15,13 +15,11 @@ const Ansiedade = () => (
           <p className="ansiedade-txt">
              Sentir ansiedade é normal pois é uma reação natural do corpo ao stress.
              Em seu estado normal é saudável para o indivíduo, pois ela o impulsiona 
-             para realizar projetos e planejar o futuro. 
-             Apesar de caracterizada por sentimentos de tensão, preocupação e 
-             pensamentos ruins nem sempre a ansiedade é uma doença. Porém, 
-             dependendo da frequência e intensidade dos sintomas - e de quando passa 
-             a se tornar excessiva a ponto de interferir no trabalho, relacionamentos
-             e em outras partes da vida - pode se tornar patologica.
-             Tanto a ansiedade quanto o medo, não surgem na 
+             para realizar projetos e planejar o futuro. Apesar de caracterizada por sentimentos de tensão, preocupação e 
+             pensamentos ruins nem sempre a ansiedade é uma doença. Porém, dependendo da 
+             frequência e intensidade dos sintomas - e de quando passa a se tornar excessiva 
+             a ponto de interferir no trabalho, relacionamentos e em outras partes da vida -
+             pode se tornar patologica. Tanto a ansiedade quanto o medo, não surgem na 
              vida da pessoa por uma escolha. Acredita-se que vivências interpessoais 
              e problemas na primeira infância possam ser importantes causas desses sintomas.</p>
           <img className="fig1" src={garotanervosa} alt="jovem ansiosa" />
