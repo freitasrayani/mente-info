@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box-ajuda {
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  padding: 40px;
+}
+
+@media (max-width: 700px) {
+    .box-ajuda {     
+     flex-direction: column;     
+    }
+}
+
+.box-img-ajuda {
+  display: flex;
+  align-content: center;
+  height: 465px;
+  width: 37%;
+  justify-content: center;
+  margin-left: 80px;
+}
+@media (max-width: 700px) {
+    .box-img-ajuda {
+        height: 50%;
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+.img-ajuda {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.box-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  width: 50%;
+  margin-left: 30px;
+}
+
+@media (max-width: 700px) {
+    .box-description {
+        padding: 0;
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+.box-title {
+  display: flex;
+  font-size: 30px;
+}
+
+@media (max-width: 700px) {
+    .box-title {
+        font-size: 29px;
+        text-align: center;
+        padding-top: 20px;
+    }
+}
+
+.box-mente {
+    margin-top: 10px;
+  }
+
+  @media (max-width: 700px) {
+    .box-mente {
+        text-align: center;
+    }
+  }
+
+.description {
+  font-size: 22px;
+}
+
+@media (max-width: 700px) {    
+.description {
+    font-size: 26px;
+  }
+}
+
+.box-button {
+  display: flex;
+}
+@media (max-width: 700px) {
+    .box-button {
+        justify-content: center;
+    }
+}
+.button-ajuda {
+  color: black;
+  background: #7bfada;
+  padding: 10px;
+  margin: 20px;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  box-shadow: 2px 2px #8888;
+  text-decoration: none;
+  font-size: 1.2rem;
+  width: 45%;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+    .button-ajuda {
+        width: 75%;
+    }
+}
+
+.button-ajuda:hover {
+  cursor: pointer;
+  background: #4cb69b;
+}
+

@@ -15,6 +15,7 @@
   .infor1 {
     font-size: 1.4rem;
     text-align: center;
+    margin: 20px;
     color: #212221; 
     text-decoration: underline 3px #7bfada;
   }
@@ -27,8 +28,9 @@
     padding: 3px;
   }
   .depre-txt{
-    display: flex;
-    }
+      margin: 20px;
+      letter-spacing: 1.2px;
+  }
   .figure1 {
       width: 300px;
       margin: 30px;
@@ -60,7 +62,6 @@
     text-align: center;
     margin: 10px;
 }
-
 .figure3 {
     width: 340px;
 }
