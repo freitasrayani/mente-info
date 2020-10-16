@@ -8,4 +8,4 @@
 * JavaScript
 
 
-[Você pode gerar seus resultados clicando aqui](https://mente-info.vercel.app/)
+[Click em mim para ver o resultado!](https://mente-info.vercel.app/)
