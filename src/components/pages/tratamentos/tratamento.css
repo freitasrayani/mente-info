@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.tratamento-section{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.tratamento-title-div {
+    justify-content: center;
+    text-align: center;
+}
+.tratamento-title {
+    margin: 15px;
+}
+.tratamento-sub {
+    margin: 10px;
+    text-decoration: underline 3px #7bfada;
+}
+.tratamento-txt1 {
+    margin: 5px;
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+@media (min-width: 700px ){
+    .tratamento-sub {
+        text-align: center;
+    }
+    .tratamento-txt1 {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+    }
+    img-tratamento1 {
+        width: 400px;
+    }
+    .tratamento-txt2 {
+        display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 0px 0px 0px 10px;
+    }
+    .img-tratamento2 {
+        width: 400px;
+       
+    }
+}
+.tratamento-txt2 {
+    margin: 5px;
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+
+.img-tratamento1 {
+    width: 300px;
+    margin: 15px;
+}
+.img-tratamento2 {
+    width: 250px;
+    border-radius: 50%;
+    margin: 15px;
+}

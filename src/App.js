@@ -4,7 +4,8 @@ import Header from './components/Header';
 import LandingPage from './components/pages/inicio/LandingPage';
 import Ansiedade from './components/pages/ansiedade/Ansiedade';
 import Depressao from './components/pages/depressão/Depressao';
-import Ajuda from './components/pages/ajuda/Ajuda'
+import Ajuda from './components/pages/ajuda/Ajuda';
+import Tratamento from './components/pages/tratamentos/Tratamento'
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
        </Route>
        <Route exact path="/depressao">
          <Depressao />
+       </Route>
+       <Route exact path="/tratamento">
+         <Tratamento />
        </Route>
        <Route exact path="/ajuda">
          <Ajuda />

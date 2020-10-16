@@ -18,11 +18,12 @@ const Ajuda = () => (
             </div>
 
             <div className="box-mente">
-                <p className="description">O mente care é uma App gratuito, onde você consegue ajuda com especialistas.</p>
+                <p className="description"> O Mente Care é um aplicativo que tem por objetivo ajudar pessoas a encontrar atendimento psicológico acessível e próximo a sua localidade. Assim como também ajudar os profissionais da área com a falta de pacientes e a servir a sociedade os seus serviços de forma eficiente e sem barreiras.</p>
             </div>
 
             <div className="box-button">
-                <Link className="button-ajuda" to="/">Buscar Ajuda</Link>
+                <a className="button-ajuda" href="https://mente-careapp.vercel.app/" target="_blank">Buscar Ajuda</a>
+               
             </div>
         </div>
 
