@@ -4,6 +4,7 @@ import './ajuda.css'
 const Ajuda = () => (
     <div className="ajuda-container">
 
+
     </div>
 )
 
