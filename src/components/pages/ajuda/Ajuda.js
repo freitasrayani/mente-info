@@ -1,7 +1,6 @@
 import React from 'react';
 import './ajuda.css';
-import cellphone from './img-ajuda/cellphone.jpg';
-import { Link } from 'react-router-dom';
+import cellphone from './img-ajuda/cellphone.jpg'
 
 const Ajuda = () => (
 
