@@ -81,3 +81,117 @@
 .row-lista-img {
     margin: 20px;
 }
+
+@media (min-width: 700px) {
+  .depre-section1 {
+    width: 100%;
+    height: 100vh;
+  }
+  .depre-info {
+    background: #fff;
+    /* padding: 20px 0 0; */
+    font-family: "Montserrat", sans-serif;
+  }
+  .infor1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .parte1 {
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 10px 20px;
+  }
+  .depre-txt {
+    float: left;
+    width: 41%;     
+    margin-right: 45px;
+  }
+  .figure1 {
+    float: right;
+    width: 40%;
+    /* height: 280px; */
+    margin: 50px 0; 
+  }
+  .parte2 {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 10px 20px;
+  }
+  .infor2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5rem;
+      text-align: center;
+      background: #7bfada;   
+  }
+  .depre-txt2 {
+    padding-block: 0;
+    width: 80%;
+  }
+
+  .figure2 {
+    width: 500px;
+    height: 400px;
+  }
+  .parte3 {
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 10px 20px;
+  }
+  .ul-causas {
+    width: 50%;
+    margin: 10px;
+  }
+  .li-causas {
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    line-height: 2;
+    margin:0px 2px 0px 2px;
+  }
+  .figure3 {
+    width: 40%;
+    height: 400px;
+    margin: 10px ;
+  }
+  .parte4 {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 10px 20px;
+  }
+  .infor3 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .row-lista-img {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 100%;
+      padding: 10px 20px;
+  }
+  .ul-sintomas {
+    width: 50%;
+    margin-left: 70px;
+  
+  }
+  .li-sintomas {
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    line-height: 2;
+    margin:0px 2px 0px 2px;
+  }
+  .fig4 {
+    width: 50%;
+    height: 400px;
+    margin: 10px ;
+  }
+}
