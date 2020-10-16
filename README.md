@@ -9,3 +9,4 @@
 
 
 [Click em mim para ver o resultado!](https://mente-info.vercel.app/)
+[Click aqui para acessar o mente care](https://mente-careapp.vercel.app/)
