@@ -1,4 +1,4 @@
-#Mente Info
+# Mente Info
 
 <p>Um site informativo sobre saúde mental voltado para os tópicos de ansiedade e depressão.</p>
 
